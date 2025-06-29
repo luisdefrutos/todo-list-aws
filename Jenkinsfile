@@ -4,6 +4,7 @@ pipeline {
     environment {
         PYTHONPATH = "${env.WORKSPACE}"
         PATH = "/home/ubuntu/.local/bin:/usr/local/bin:${env.PATH}"
+        BASE_URL = "https://yn2a1djoil.execute-api.us-east-1.amazonaws.com/Stage"
     }
 
     stages {
